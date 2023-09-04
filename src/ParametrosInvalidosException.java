@@ -1,5 +1,5 @@
 public class ParametrosInvalidosException extends RuntimeException {
   ParametrosInvalidosException() {
-    super("O primeiro parâmetro não pode ser maior que o segundo parâmetro.");
+    super("O segundo par\u00E2metro deve ser maior que o primeiro.");
   }
 }
